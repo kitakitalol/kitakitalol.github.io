@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>my portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Intro Header -->
+  <div class="intro">
+    <h1 class="header">hi, i'm olivia</h1>
+    <p class="floating-subtitle">
+      <span>an</span> 
+      <span>aspiring</span> 
+      <span>software</span> 
+      <span>engineer</span>
+    </p>
+  </div>
+
+  <!-- Paw Trail -->
+  <div class="paw-track">
+    <img src="images/paw.png" class="paw" style="--i:0; top: 80vh; left: 10vw;">
+    <img src="images/paw.png" class="paw" style="--i:1; top: 70vh; left: 20vw;">
+    <img src="images/paw.png" class="paw" style="--i:2; top: 60vh; left: 30vw;">
+    <img src="images/paw.png" class="paw" style="--i:3; top: 50vh; left: 40vw;">
+    <img src="images/paw.png" class="paw" style="--i:4; top: 40vh; left: 50vw;">
+    <img src="images/paw.png" class="paw" style="--i:5; top: 30vh; left: 60vw;">
+  </div>
+
+  <!-- Navigation -->
+  <nav class="main-nav">
+    <a href="#about">about me</a>
+    <a href="#projects">projects</a>
+    <a href="resume.pdf" target="_blank">resume</a>
+  </nav>
+
+  <!-- Sections -->
+  <section id="about">
+    <h2>about me</h2>
+    <div class="about-box">
+    <p>i am currently a full-time computer science major studying at bellevue college, pursuing a transfer degree to a 4-year institution.</p>
+  
+    <p>here are some of the languages i am familiar with:</p>
+    <div class="language-columns">
+        <ul><b>
+          <li>Python</li>
+          <li>Java</li>
+        </ul>
+        <ul>
+          <li>CSS</li>
+          <li>HTML</li>
+        </b></ul>
+      </div>
+      <small><center>i am most comfortable with python </center></small>
+   </div>
+  </section>
+
+  <section id="projects">
+    <h2>projects</h2>
+    <div class="projects-box">
+        <div class="project-card">
+            <h3><a href="https://github.com/kitakitalol/todolist" target="_blank">to-do list app </a></h3>
+            <p>this is my first ever project, a simple to-do list application made with python.</p>
+            <a href="images/todolist-preview.png" target="_blank">
+                <img src="images/todolist-preview.png" alt="To-Do List App Preview" class="project-img">
+              </a>
+          </div>
+    </div>
+  </section>
+  <footer class="sticky-footer">
+    <p>contact me!</p>
+      <p> skykitaah@gmail.com </p>
+      <p> 620-515-5394 </p>
+    </div>
+  </footer>
+</body>
+</html>
